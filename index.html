@@ -137,7 +137,7 @@
         <div
             class="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
             <div
-                class="rounded-3xl rounded-t-3xl bg-white/60 p-8 ring-1 ring-gray-900/10 sm:mx-8 sm:rounded-b-none sm:p-10 lg:mx-0 lg:rounded-tr-none lg:rounded-bl-3xl">
+                class="hover:scale-105 duration-300 rounded-3xl  rounded-t-3xl  bg-white/60 p-8 ring-1 ring-gray-900/10 sm:mx-8 sm:rounded-b-none sm:p-10 lg:mx-0 lg:rounded-tr-none lg:rounded-bl-3xl">
                 <span id="tier-hobby" class="text-base/7 font-semibold text-indigo-600">Básico</span>
                 <p class="mt-4 flex items-baseline gap-x-2">
                     <span class="text-5xl font-semibold tracking-tight text-gray-900">R$70</span>
@@ -182,10 +182,11 @@
                     hoje</a>
             </div>
 
-            <div class="relative rounded-3xl bg-gray-900 p-8 shadow-2xl ring-1 ring-gray-900/10 sm:p-10">
+            <div
+                class="hover:scale-105 relative duration-300 rounded-3xl bg-gray-900 p-8 shadow-2xl ring-1 ring-gray-900/10 sm:p-10">
                 <span id="tier-enterprise" class="text-base/7 font-semibold text-indigo-400">Profissional</span>
                 <p class="mt-4 flex items-baseline gap-x-2">
-                    <span class="text-5xl font-semibold tracking-tight text-white">$99</span>
+                    <span class="text-5xl font-semibold tracking-tight text-white">R$125</span>
                     <span class="text-base text-gray-400">/mês</span>
                 </p>
                 <p class="mt-6 text-base/7 text-gray-300">Mais recursos e suporte dedicado</p>
@@ -200,7 +201,7 @@
                         Projetos ilimitados
                     </li>
 
-                       <li class="flex gap-x-3">
+                    <li class="flex gap-x-3">
                         <svg viewBox="0 0 20 20" fill="currentColor" data-slot="icon" aria-hidden="true"
                             class="h-6 w-5 flex-none text-indigo-400">
                             <path
@@ -232,13 +233,93 @@
                     </li>
                 </ul>
                 <a href="#" aria-describedby="tier-enterprise"
-                    class="mt-8 block rounded-md bg-indigo-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 sm:mt-10">Get
-                    Começar agora</a>
+                    class="mt-8 block rounded-md bg-indigo-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-indigo-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 sm:mt-10">Assinar
+                    agora</a>
             </div>
         </div>
         </div>
 
+    </section>
 
+    <section class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+        <div class="absolute inset-0 -z-10 overflow-hidden">
+            <svg aria-hidden="true"
+                class="absolute top-0 left-[max(50%,25rem)] h-256 w-512 -translate-x-1/2 mask-[radial-gradient(64rem_64rem_at_top,white,transparent)] stroke-gray-800">
+                <defs>
+                    <pattern id="e813992c-7d03-4cc4-a2bd-151760b470a0" width="200" height="200" x="50%" y="-1"
+                        patternUnits="userSpaceOnUse">
+                        <path d="M100 200V.5M.5 .5H200" fill="none" />
+                    </pattern>
+                </defs>
+                <svg x="50%" y="-1" class="overflow-visible fill-gray-800/50">
+                    <path
+                        d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z"
+                        stroke-width="0" />
+                </svg>
+                <rect width="100%" height="100%" fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)" stroke-width="0" />
+            </svg>
+        </div>
+        <div
+            class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
+            <div
+                class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+                <div class="lg:pr-4">
+                    <div class="lg:max-w-lg">
+                        <!-- <p class="text-base/7 font-semibold text-indigo-400">Deploy faster</p> -->
+                        <h2 class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-white sm:text-5xl">Deploy Mais rápido</h2>
+                        <p class="mt-6 text-xl/8 text-gray-300">Acelere o fluxo de trabalho com nossa plataforma simplificada e fácil de usar. Realize deploys mais rápidos e sem complicação.</p>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="-mt-12 -ml-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+                <img src="https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png"
+                    alt="" class="w-3xl max-w-none rounded-xl bg-gray-800 shadow-xl ring-1 ring-white/10 sm:w-228" />
+            </div>
+            <div
+                class="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+                <div class="lg:pr-4">
+                    <div class="max-w-xl text-base/7 text-gray-400 lg:max-w-lg">
+                        <p class="text-base/7 font-semibold text-indigo-400">Melhore seu fluxo de trabalho</p>
+                        <p>Aumente a eficiência da sua equipe com uma interface intuitiva e integração de processos que reduzem o tempo de operação. Conecte seus dados de maneira inteligente.</p>
+                        <ul role="list" class="mt-8 space-y-8 text-gray-400">
+                            <li class="flex gap-x-3">
+                                <svg viewBox="0 0 20 20" fill="currentColor" data-slot="icon" aria-hidden="true"
+                                    class="mt-1 size-5 flex-none text-indigo-400">
+                                    <path
+                                        d="M5.5 17a4.5 4.5 0 0 1-1.44-8.765 4.5 4.5 0 0 1 8.302-3.046 3.5 3.5 0 0 1 4.504 4.272A4 4 0 0 1 15 17H5.5Zm3.75-2.75a.75.75 0 0 0 1.5 0V9.66l1.95 2.1a.75.75 0 1 0 1.1-1.02l-3.25-3.5a.75.75 0 0 0-1.1 0l-3.25 3.5a.75.75 0 1 0 1.1 1.02l1.95-2.1v4.59Z"
+                                        clip-rule="evenodd" fill-rule="evenodd" />
+                                </svg>
+                                <span><strong class="font-semibold text-white">Push to deploy.</strong> Implemente atualizações com agilidade e sem erros, com nosso sistema automatizado de deploy.</span>
+                            </li>
+                            <li class="flex gap-x-3">
+                                <svg viewBox="0 0 20 20" fill="currentColor" data-slot="icon" aria-hidden="true"
+                                    class="mt-1 size-5 flex-none text-indigo-400">
+                                    <path
+                                        d="M10 1a4.5 4.5 0 0 0-4.5 4.5V9H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2h-.5V5.5A4.5 4.5 0 0 0 10 1Zm3 8V5.5a3 3 0 1 0-6 0V9h6Z"
+                                        clip-rule="evenodd" fill-rule="evenodd" />
+                                </svg>
+                                <span><strong class="font-semibold text-white">SSL certificates.</strong> Garanta a segurança de suas informações e dados com nossos certificados SSL de alta qualidade.</span>
+                            </li>
+                            <li class="flex gap-x-3">
+                                <svg viewBox="0 0 20 20" fill="currentColor" data-slot="icon" aria-hidden="true"
+                                    class="mt-1 size-5 flex-none text-indigo-400">
+                                    <path
+                                        d="M4.632 3.533A2 2 0 0 1 6.577 2h6.846a2 2 0 0 1 1.945 1.533l1.976 8.234A3.489 3.489 0 0 0 16 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234Z" />
+                                    <path
+                                        d="M4 13a2 2 0 1 0 0 4h12a2 2 0 1 0 0-4H4Zm11.24 2a.75.75 0 0 1 .75-.75H16a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75h-.01a.75.75 0 0 1-.75-.75V15Zm-2.25-.75a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 0 0 .75-.75V15a.75.75 0 0 0-.75-.75h-.01Z"
+                                        clip-rule="evenodd" fill-rule="evenodd" />
+                                </svg>
+                                <span><strong class="font-semibold text-white">Database backups.</strong> Mantenha seus dados seguros com backups automáticos. Recuperação rápida e sem complicação.</span>
+                            </li>
+                        </ul>
+                        <p class="mt-8">Com nossa plataforma, você tem total controle sobre seus dados. Escale facilmente, sem perder a agilidade nas operações diárias. A integração é simples, e a proteção dos dados, garantida.</p>
+                        <h3 class="mt-16 text-2xl font-bold tracking-tight text-white">Sem servidor? Sem problemas.</h3>
+                        <p class="mt-6">A plataforma oferece flexibilidade para que sua empresa cresça sem limitações. Não se preocupe com infraestrutura ou servidores - deixe a gente cuidar disso para você.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 
