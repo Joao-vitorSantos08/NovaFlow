@@ -13,7 +13,7 @@ Projeto desenvolvido durante o curso de Tailwind CSS, onde criamos uma página r
 
  ## 🎨 Layout
 
-![Mobile3]()
+![Mobile3](Thumbnail-nova-flow.png)
 
 ## ▶️ Como Executar o Projeto
 
